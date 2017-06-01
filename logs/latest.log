@@ -1,536 +1,134 @@
-[19:20:13] [main/INFO]: [STDOUT]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[19:20:13] [main/INFO]: [STDOUT]: Transforming net.minecraft.block.Block Finished.
-[19:20:16] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[19:20:32] [Server thread/INFO]: [STDOUT]: Doomlike Dungeons is in preInit, should now load config.
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Pablo\Desktop\Minecrafting\config\DLDungeonsJBG
-[19:20:32] [Server thread/INFO]: [STDOUT]: freqScale = 8
-[19:20:32] [Server thread/INFO]: [STDOUT]: factor = 32
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Frequency Scaling Factor Set To: 8
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Minimum X Factor Set To: 16
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Difficulty set to: Normal difficulty.
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons in with world generation? true
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons even with structures disabled? false
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will export item, block, and mob lists? false
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will announce use of OP/cheat commands? true
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will dungeons be easy to find? false
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will themes be automatically install if themes folder is empty? true
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Can themes be (re)installed by command? true
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will be stingy with chests? false
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] adding END to excusion list
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will use API? true
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will allow API base mob change? true
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will self-profile? false
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir will be set to C:\Users\Pablo\Desktop\Minecrafting\config\DLDungeonsJBG\themes\
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir File is be set to C:\Users\Pablo\Desktop\Minecrafting\config\DLDungeonsJBG\themes
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Pablo\Desktop\Minecrafting\config\DLDungeonsJBG\themes
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Installing files C:\Users\Pablo\Desktop\Minecrafting\config\DLDungeonsJBG\chests.cfg
-[19:20:32] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Config should now be loaded.
-[19:20:33] [Server thread/INFO]: [STDERR]: java.lang.ClassNotFoundException: minetweaker.MineTweakerAPI
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName0(Native Method)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at futurepack.minetweaker.MinetweakerBridge.init(MinetweakerBridge.java:15)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at futurepack.common.FPMain.preInit(FPMain.java:161)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:641)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:252)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:230)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:147)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
-[19:20:33] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
-[19:20:33] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException
-[19:20:37] [Server thread/INFO]: Loading properties
-[19:20:37] [Server thread/INFO]: Default game type: SURVIVAL
-[19:20:37] [Server thread/INFO]: Generating keypair
-[19:20:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:20:37] [Server thread/INFO]: Using default channel type
-[19:20:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:20:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:20:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:20:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:20:38] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
-[19:20:38] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
-[19:20:38] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
-[19:20:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading custom NBT tags (nbt.cfg)
-[19:20:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Found 12 themes.
-[19:20:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading chest loot file (chests.cfg)
-[19:20:39] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[19:20:39] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[19:20:39] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[19:20:39] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[19:20:39] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
-[19:20:39] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
-[19:20:40] [Server thread/WARN]: Failed to load operators list: 
-java.io.FileNotFoundException: ops.json (El sistema no puede encontrar el archivo especificado)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
-	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_111]
-	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_111]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.11.2.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mx.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [lg.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [lg.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:216) [lh.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_111]
-[19:20:40] [Server thread/INFO]: Preparing level "world"
-[19:20:40] [Server thread/INFO]: [STDOUT]: settings for world: 
-[19:20:40] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[19:20:40] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP json: 
-[19:20:40] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generateBopSoils":true,"generateBopTrees":true,"generateBopGrasses":true,"generateBopFoliage":true,"generateBopFlowers":true,"generateBopPlants":true,"generateBopWaterPlants":true,"generateBopMushrooms":true,"generateRockFormations":true,"generatePoisonIvy":true,"generateFlax":true,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
-[19:20:41] [Server thread/INFO]: [STDOUT]: settings for world: 
-[19:20:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[19:20:41] [Server thread/INFO]: [STDOUT]: settings for world: 
-[19:20:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[19:20:41] [Server thread/INFO]: [STDOUT]: settings for world: 
-[19:20:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[19:20:41] [Server thread/INFO]: [STDOUT]: settings for world: 
-[19:20:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[19:20:41] [Server thread/INFO]: [STDOUT]: settings for world: 
-[19:20:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[19:20:41] [Server thread/INFO]: [STDOUT]: settings for hell world: 
-[19:20:41] [Server thread/INFO]: Preparing start region for level 0
-[19:20:42] [Server thread/INFO]: Preparing spawn area: 33%
-[19:20:43] [Server thread/INFO]: Done (2.831s)! For help, type "help" or "?"
-[19:20:43] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
-[19:22:51] [Server thread/INFO]: Onedy[/87.220.102.140:9637] logged in with entity id 248 at (464.84366812538667, 63.5, 264.1584176916333)
-[19:22:51] [Server thread/INFO]: Onedy joined the game
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: java.nio.file.AccessDeniedException: C:\Users\Pablo\Desktop\Minecrafting\.\world\DIM-1\ores\c_0_0.dat
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at java.nio.file.Files.delete(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at com.sun.nio.zipfs.ZipFileSystem.sync(ZipFileSystem.java:1294)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at com.sun.nio.zipfs.ZipFileSystem.close(ZipFileSystem.java:277)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at futurepack.common.FPChunkScanner.progressAll(FPChunkScanner.java:170)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at futurepack.common.FPChunkScanner.run(FPChunkScanner.java:143)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: java.nio.file.FileSystemAlreadyExistsException
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:113)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at java.nio.file.FileSystems.newFileSystem(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at java.nio.file.FileSystems.newFileSystem(Unknown Source)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at futurepack.common.FPChunkScanner.progressAll(FPChunkScanner.java:164)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at futurepack.common.FPChunkScanner.run(FPChunkScanner.java:143)
-[19:25:34] [FP-ChunkScanner/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
-[19:39:05] [Server thread/INFO]: Tokoro360[/127.0.0.1:52466] logged in with entity id 8554 at (496.29858515613034, 63.0, 252.89666845643671)
-[19:39:05] [Server thread/INFO]: Tokoro360 joined the game
-[19:39:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2615ms behind, skipping 52 tick(s)
-[19:43:38] [Server thread/INFO]: <Tokoro360> puedes dormir, o te pilla lejos?
-[19:43:46] [Server thread/INFO]: <Onedy> estoy durmiendo
-[19:43:53] [Server thread/INFO]: <Tokoro360> oks
-[19:44:25] [Server thread/INFO]: <Tokoro360> a ver si encuentro diamantes xD
-[19:44:50] [Server thread/INFO]: <Onedy> quieres 3?
-[19:44:59] [Server thread/INFO]: <Tokoro360> jaja hombre me harías un favor
-[19:45:02] [Server thread/INFO]: <Onedy> ven
-[19:45:03] [Server thread/INFO]: <Tokoro360> pero le quitaría el encanto al juego
-[19:45:12] [Server thread/INFO]: <Tokoro360> nah no te preocupes
-[19:45:14] [Server thread/INFO]: <Tokoro360> asi cojo materiales tmbn
-[19:49:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2511ms behind, skipping 50 tick(s)
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.836002977167823,0.0,9.468608718506204
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.6930496549495047,0.0,9.81313298498398
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.554197042655801,0.0,10.161883872469446
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.4208214725545076,0.0,10.514865949953673
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.2940016717720937,0.0,10.87197071027748
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.174552835769873,0.0,11.233010829262696
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 3.0630671418108477,0.0,11.597748253390535
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.959951918193269,0.0,11.965915336188658
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.8654536778550437,0.0,12.33722978923663
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.7796881662013675,0.0,12.711406361107151
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.7026564403723796,0.0,13.08816494187522
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.6342750335438723,0.0,13.467236348433744
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.5743918262556917,0.0,13.848365985281816
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.5227966433847087,0.0,14.231316263791058
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.4792385411735722,0.0,14.615867591177476
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.4434299328733005,0.0,15.0018192270486
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.4150618033056617,0.0,15.388988675938464
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.3938059453047345,0.0,15.777211609975666
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.379328418701107,0.0,16.1663402719156
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.513830307548801,0.0,10.170842914929494
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.4820291078906394,0.0,10.563732690887491
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.4472468775026073,0.0,10.956855542869562
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.4109779414429795,0.0,11.350356296794757
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.3744533808845745,0.0,11.744317724029713
-[19:49:41] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.3386731170412531,0.0,12.138776861008438
-[19:49:58] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.4757979224596056,0.0,10.100905066518635
-[19:49:58] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.5650167502404884,0.0,10.49062966223903
-[19:49:58] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.6486233034158886,0.0,10.881244634188647
-[19:49:58] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! 2.724325548680781,0.0,11.272795494758384
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.9873731338346943,0.0,10.049957974091342
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.126034159063579,0.0,10.418857289091136
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.2697052380273135,0.0,10.786132660847898
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.4191805518121328,0.0,11.151222007893864
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.5756048401083262,0.0,11.513276920203737
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.7403530585453382,0.0,11.871151532034048
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.9149011490658268,0.0,12.223398916840608
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.100717236000378,0.0,12.568260380947777
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.2991428204222757,0.0,12.903677944899812
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.510907725065863,0.0,13.227891210938026
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.736271223668723,0.0,13.539449100832542
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.975135692897311,0.0,13.837209504830128
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.2271461945163082,0.0,14.120313220226024
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.4917649374074244,0.0,14.388162476070818
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.7683315357079437,0.0,14.640393367859303
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.056111597318818,0.0,14.876841120852134
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.3543315314909705,0.0,15.097515396615677
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.662206180164048,0.0,15.302571203198625
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.97895878368854,0.0,15.492284166688876
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.303835917588572,0.0,15.667022837623222
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.636116666466137,0.0,15.827234044366548
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.975119248836904,0.0,15.973425136031665
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -6.320205128013299,0.0,16.10614360864082
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -6.670780607110032,0.0,16.225969885345478
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -7.026297292248273,0.0,16.333499068709216
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -7.386251354599494,0.0,16.429339688251048
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -7.750182042935876,0.0,16.514100960805933
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -8.117669570065004,0.0,16.588385094668638
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -8.48833305788446,0.0,16.65278798398691
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -8.861827648575172,0.0,16.707888321928124
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -9.237842198972999,0.0,16.75424927886803
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -9.616096732391611,0.0,16.792416177108862
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -9.99633989939423,0.0,16.82291440185071
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -10.378346085265434,0.0,16.84624370986137
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -10.761913387881464,0.0,16.862880752273156
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -11.146861276252594,0.0,16.873277531799886
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -11.533028840839734,0.0,16.87786383218912
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -11.920352940051316,0.0,16.877738922901244
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -12.30882525346135,0.0,16.874538608389912
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -12.698427805994584,0.0,16.870316344174796
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.08905923759562,0.0,16.867448115497893
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.480458916640828,0.0,16.86853543035818
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.872134957698222,0.0,16.876322259261087
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -14.263300853123837,0.0,16.893606591367984
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -14.652827650417521,0.0,16.923142363472095
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -15.039206276262007,0.0,16.96755812954268
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -15.420908363644457,0.0,17.02866588608515
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -15.796483805703474,0.0,17.107604656201488
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -16.164619072240953,0.0,17.204973365094475
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -16.52417622206974,0.0,17.320938238868393
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -16.87420238040238,0.0,17.4553354984173
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -17.213934820745067,0.0,17.607748865997166
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -17.542792133144758,0.0,17.777577845923986
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -17.860360881391557,0.0,17.964092337567365
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -18.166383821743466,0.0,18.166473665910644
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -18.46073807175469,0.0,18.38385204177058
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -18.74341834000768,0.0,18.61533292972166
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -19.014522615183864,0.0,18.860016454165304
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -19.274230304552475,0.0,19.11701578493836
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -19.52279497779739,0.0,19.385465376963168
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -19.76052256742844,0.0,19.664532740796403
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -19.987765059613594,0.0,19.953421838862255
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -20.20557096434743,0.0,20.25115049750326
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -20.41553661425428,0.0,20.556598506265743
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -20.619678294910614,0.0,20.86851241010538
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -20.819675033849308,0.0,21.18577683627973
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -21.01691630086725,0.0,21.507406877547226
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -21.21254451827474,0.0,21.832538856585813
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -21.407489449541913,0.0,22.16042182025518
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -21.60250547462317,0.0,22.490404695103337
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -21.798197862255847,0.0,22.821926928969333
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -21.995042786595832,0.0,23.154511077979862
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -22.193411619303333,0.0,23.487751455881664
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -22.393582685706974,0.0,23.821309256781774
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -22.595764563492025,0.0,24.154899448434776
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -22.800100697495054,0.0,24.48828892272678
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -23.006686213418106,0.0,24.821286087854503
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -23.2155733290258,0.0,25.153737629389354
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -23.42677930317518,0.0,25.485523270654028
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -23.640293481909225,0.0,25.81655087452242
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -23.85608353004409,0.0,26.146751878577277
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -24.074097889865243,0.0,26.47607934369546
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -24.294274099704467,0.0,26.804501552337626
-[19:50:03] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -24.516540048247975,0.0,27.132000724808165
-[19:50:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9300ms behind, skipping 186 tick(s)
-[19:50:09] [Server thread/INFO]: <Tokoro360> k lagazo
-[19:50:19] [Server thread/INFO]: <Onedy> es que voy en barca :D
-[19:51:39] [Server thread/INFO]: <Onedy> me ves? :D
-[19:52:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2262ms behind, skipping 45 tick(s)
-[19:54:43] [Server thread/INFO]: <Onedy> que hay en las fortalezas acuaticas?
-[19:54:51] [Server thread/INFO]: <Tokoro360> mucho oro
-[19:54:58] [Server thread/INFO]: <Onedy> si encuentro alguna te vienes?
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.43352603807056767,0.0,10.333966358540579
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.423497045555564,0.0,10.733233161844169
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.4125618719876911,0.0,11.132527509212764
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.40079198284502127,0.0,11.531845726092456
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.3882516974053942,0.0,11.931184490483815
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.3750027338963946,0.0,12.330540998851689
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.3611006389542126,0.0,12.72991272056413
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.34659540478287454,0.0,13.129297370601876
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.33153585489458237,0.0,13.528693078711967
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.31596593044912424,0.0,13.92809816166698
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.29992900878619366,0.0,14.327511290826692
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.283460299679291,0.0,14.726931076699884
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.26659532198777924,0.0,15.126356462459626
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.25006336289493447,0.0,15.525816262031071
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.23515392049546335,0.0,15.925330056326288
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.22358321161573258,0.0,16.32484976149533
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.21740690022761555,0.0,16.724192414864206
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.21822147657042024,0.0,17.123089798136107
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.2272352981261747,0.0,17.521230922702216
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.2453308382398518,0.0,17.918292115485315
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.27311439504376267,0.0,18.313959130385797
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.31096143577951807,0.0,18.707941974737878
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.35906471011787744,0.0,19.099981189968616
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.41746636323648545,0.0,19.489853303026052
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.4854449533064553,0.0,19.877647716108527
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.5616740050164708,0.0,20.26372408679913
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.6449974287401119,0.0,20.648386917943753
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.7344057745780219,0.0,21.03189488037276
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.8290183040959391,0.0,21.41446751951912
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -0.9280703715638765,0.0,21.79628979008271
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.0308948325572374,0.0,22.177518692776744
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.136916049848196,0.0,22.558285164481845
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.2456336599753968,0.0,22.938699631334543
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.356618767430632,0.0,23.318853057698902
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.4694996397165596,0.0,23.698821656509836
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.5839524222161572,0.0,24.07866976885066
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.6997036603543165,0.0,24.458448719106855
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.8165144022339064,0.0,24.838201920157644
-[19:55:35] [Server thread/WARN]: Tokoro360 moved too quickly! -10.055131837398676,1.0,0.3315815532656927
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -1.934184053661511,0.0,25.217963321318962
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.0525392920299055,0.0,25.597760858095512
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.1714350011191073,0.0,25.977615913622685
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.290747823886818,0.0,26.357545214425727
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.410370350666767,0.0,26.737562517976016
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.530216833450595,0.0,27.117676588740437
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.650213728396693,0.0,27.497894070492066
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.7702984800702097,0.0,27.878219720731295
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.878374753713274,0.0,28.220512796878893
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -2.975643397415297,0.0,28.528576557250858
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.0631851744280993,0.0,28.80583393424081
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.1419727716524903,0.0,29.05536556692141
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.2128816072759037,0.0,29.279944030384627
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.2766995576464524,0.0,29.48206464214718
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.33413571145843,0.0,29.663973187914507
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.3858282485198288,0.0,29.82769087476811
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.4323515306425634,0.0,29.97503678903297
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.4742224834438957,0.0,30.107648108358376
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.5119063399667994,0.0,30.226998292589542
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.545821809938957,0.0,30.334413455552067
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.576345732105324,0.0,30.43108709965736
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.603817261327208,0.0,30.518093377047194
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.6285416369719314,0.0,30.59639902462368
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.6507935744627957,0.0,30.66687410557563
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.6708203176740426,0.0,30.730301676752106
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.6888443860866573,0.0,30.787386489298683
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.705066047228229,0.0,30.8387628192296
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.719665541868949,0.0,30.885001514942473
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.7328050866974536,0.0,30.926616339981706
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.744630676729912,0.0,30.964069681524848
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.7552737074771585,0.0,30.997777688020733
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.7648524348959427,0.0,31.028114893063275
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.7734732893444516,0.0,31.055418376878265
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.781232058142564,0.0,31.079991511660864
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.788214949875851,0.0,31.10210733237932
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.7944995522693716,0.0,31.12201157049867
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.8017004144177236,0.0,31.144680785384026
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.809882328627509,0.0,31.169784793668782
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.819167437329952,0.0,31.196994489226086
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.829718839080215,0.0,31.225975745178175
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.8417249190490566,0.0,31.256383318016674
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.8553846881380878,0.0,31.28785537155602
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.8708943352128244,0.0,31.32000883138005
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.8884326754335916,0.0,31.35243779618156
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -3.935670652845033,0.0,31.406335787403464
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.012239039935935,0.0,31.475827564305973
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.117169587648277,0.0,31.555766468480442
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.249072501433261,0.0,31.641723686677437
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.406281454800592,0.0,31.729949442543102
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.586968414312651,0.0,31.817317901393153
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -4.78923149976913,0.0,31.901268132517316
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.011161854320903,0.0,31.979739148622684
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.250892249368121,0.0,32.05110699904162
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.506631243795596,0.0,32.114126403316504
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -5.7766859663386185,0.0,32.16787451196876
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -6.059475597539063,0.0,32.21169791958039
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -6.353539137465646,0.0,32.24517494695806
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -6.657537971017064,0.0,32.26807695011007
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -6.9702528495295155,0.0,32.28032552690354
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -7.290581699489394,0.0,32.28197265465417
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -7.6175331539498075,0.0,32.27317147091412
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -7.950219467931561,0.0,32.25415382487256
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -8.287850730880677,0.0,32.225217551205446
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -8.629725172630287,0.0,32.186704131242436
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -8.975221459496424,0.0,32.13898613545564
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -9.324024721793194,0.0,32.08312185459408
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -9.676064804976932,0.0,32.02071624887208
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -10.03143035318783,0.0,31.953805099636043
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -10.390277313435377,0.0,31.884776122544622
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -10.752614065890384,0.0,31.815603848664068
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -11.118344410822033,0.0,31.747900981663406
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -11.487301127115984,0.0,31.682967579497813
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -11.859271343237651,0.0,31.621833588689015
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -12.194044528878749,0.0,31.56681299841864
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -12.495340387974124,0.0,31.51729446848708
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -12.766506653976421,0.0,31.4727277927293
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.01055628691347,0.0,31.432617785609864
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.230200950738208,0.0,31.396518780158658
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.427881142943761,0.0,31.364029676113205
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.60579331121562,0.0,31.334789483246936
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.323340558054497,0.0,21.373741937821023
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.467449406719538,0.0,21.350057382854175
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.597147367082243,0.0,21.328741283948716
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.713875528316521,0.0,21.30955679544195
-[19:55:35] [Server thread/WARN]: Boat (vehicle of Onedy) moved too quickly! -13.818930870644294,0.0,21.292290756243347
-[19:55:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8356ms behind, skipping 167 tick(s)
-[19:55:46] [Server thread/INFO]: <Onedy> hala hay fuegos artificiales
-[19:55:54] [Server thread/INFO]: <Onedy> y un castillo!
-[19:56:00] [Server thread/INFO]: <Tokoro360> sera una dungeon
-[19:56:20] [Server thread/INFO]: <Onedy> es peligroso?
-[19:56:32] [Server thread/WARN]: Onedy moved wrongly!
-[19:56:32] [Server thread/INFO]: <Tokoro360> a ver los mobs no estan chetados creo
-[19:56:34] [Server thread/INFO]: <Tokoro360> pero hay muchos
-[19:56:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2157ms behind, skipping 43 tick(s)
-[19:57:57] [Server thread/INFO]: <Onedy> quieres venir? :D
-[19:58:06] [Server thread/INFO]: <Tokoro360> hmmmm...
-[19:58:09] [Server thread/INFO]: <Tokoro360> podria jaja
-[19:58:14] [Server thread/INFO]: <Tokoro360> venga, dame un sec
-[19:58:17] [Server thread/INFO]: <Tokoro360> k vuelvo a casa a dejar todo
-[19:58:21] [Server thread/INFO]: <Onedy> yo tambien
-[19:59:35] [Server thread/INFO]: <Onedy> 684 530
-[19:59:56] [Server thread/INFO]: <Onedy> mejor me hago el cleaver y vamos?
-[20:00:06] [Server thread/INFO]: <Tokoro360> como kieras, yo voy a ir cn la de hierro
-[20:00:14] [Server thread/INFO]: <Tokoro360> aunk si las del tinkers no tienen recarga, estarán mazo chetadas jaja
-[20:02:54] [Server thread/INFO]: <Tokoro360> voy a hacerme antorchas
-[20:03:26] [Server thread/INFO]: <Tokoro360> llevas tu comida?
-[20:03:31] [Server thread/INFO]: <Onedy> si pero no muchisima
-[20:03:46] [Server thread/INFO]: <Onedy> 58 filetes
-[20:03:52] [Server thread/INFO]: <Tokoro360> no muchisima dice jajaja
-[20:03:56] [Server thread/INFO]: <Tokoro360> y voy yo con 2
-[20:04:00] [Server thread/INFO]: <Tokoro360> me estoy haciendo filetes que acabo de matar una vaca
-[20:04:34] [Server thread/INFO]: <Tokoro360> has matado vacas y te han dado cuero?
-[20:04:40] [Server thread/INFO]: <Onedy> no
-[20:04:46] [Server thread/INFO]: <Onedy> necesito tambien cuero para una mochila :D
-[20:04:52] [Server thread/INFO]: <Onedy> ahora cuando termine la espada voy
-[20:04:54] [Server thread/INFO]: <Tokoro360> si, para eso lo necesito yo tambien xD
-[20:05:03] [Server thread/INFO]: <Tokoro360> bueno, creo k yo voy a ir a cenar en breve
-[20:05:07] [Server thread/INFO]: <Tokoro360> lo dejamos para despues si quieres
-[20:05:11] [Server thread/INFO]: <Tokoro360> para no parar ahi a mitad
-[20:05:11] [Server thread/INFO]: <Onedy> ok
-[20:11:44] [Server thread/INFO]: <Onedy> han quitado lo de añadir modificadores con el bloque de oro y un diamante!!!
-[20:12:13] [Server thread/INFO]: <Tokoro360> hay uno en creativo
-[20:12:16] [Server thread/INFO]: <Tokoro360> lo podemos poner en alguna tienda
-[20:12:18] [Server thread/INFO]: <Tokoro360> voy a cenar
-[20:12:23] [Server thread/INFO]: <Onedy> ok que aproveche
-[20:12:39] [Server thread/INFO]: Tokoro360 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[20:12:39] [Server thread/INFO]: Tokoro360 left the game
-[20:22:49] [Server thread/INFO]: Tokoro360[/127.0.0.1:52592] logged in with entity id 43623 at (655.4985763593091, 63.0, 253.72657738841258)
-[20:22:49] [Server thread/INFO]: Tokoro360 joined the game
-[20:22:57] [Server thread/INFO]: <Tokoro360> ya estoy
-[20:22:59] [Server thread/INFO]: <Tokoro360> hacemos la mazmorra?
-[20:23:53] [Server thread/INFO]: <Tokoro360> edu?
-[20:24:01] [Server thread/INFO]: <Onedy> si
-[20:24:03] [Server thread/INFO]: <Onedy> perdona
-[20:24:07] [Server thread/INFO]: <Tokoro360> jaja nada nada
-[20:24:09] [Server thread/INFO]: <Onedy> estaba leyendo un tutorial
-[20:24:14] [Server thread/INFO]: <Onedy> casi tengo la espada
-[20:24:15] [Server thread/INFO]: <Onedy> 1 min
-[20:24:18] [Server thread/INFO]: <Tokoro360> oks
-[20:24:45] [Server thread/INFO]: <Onedy> recuerdas como se reparaban las cosas=
-[20:25:01] [Server thread/INFO]: <Tokoro360> en una tool forge
-[20:25:03] [Server thread/INFO]: <Tokoro360> o tool station
-[20:25:10] [Server thread/INFO]: <Tokoro360> con el material de la cabeza
-[20:25:52] [Server thread/INFO]: <Onedy> bueno da igual, voy
-[20:26:37] [Server thread/INFO]: <Tokoro360> que coordenadas eran?
-[20:26:47] [Server thread/INFO]: <Onedy> 684 530
-[20:27:34] [Server thread/INFO]: <Tokoro360> no tengo de eso xD
-[20:27:42] [Server thread/INFO]: <Onedy> toma
-[20:27:57] [Server thread/INFO]: <Tokoro360> thnx
-[20:27:58] [Server thread/INFO]: <Onedy> 684 530
-[20:28:45] [Server thread/INFO]: <Onedy> si ves vacas dime porque necesito mochila
-[20:28:53] [Server thread/INFO]: <Tokoro360> ook
-[20:29:40] [Server thread/WARN]: Onedy moved wrongly!
-[20:29:41] [Server thread/WARN]: Tokoro360 moved wrongly!
-[20:30:02] [Server thread/INFO]: <Onedy> a ver
-[20:30:04] [Server thread/INFO]: <Onedy> instrucciones
-[20:30:53] [Server thread/INFO]: <Tokoro360> la que quieras jaja
-[20:30:54] [Server thread/INFO]: <Onedy> :D ?
-[20:31:02] [Server thread/INFO]: <Tokoro360> mismamente
-[20:31:08] [Server thread/INFO]: <Tokoro360> cuidado con las trampas xD
-[20:31:09] [Server thread/INFO]: <Tokoro360> si esk hay
-[20:31:36] [Server thread/INFO]: <Onedy> uuuy
-[20:32:05] [Server thread/INFO]: <Tokoro360> hay un sitio raro aqui
-[20:32:16] [Server thread/INFO]: <Onedy> del future ese
-[20:32:23] [Server thread/INFO]: <Tokoro360> no creo
-[20:32:26] [Server thread/INFO]: <Tokoro360> esta muy bien integrado xD
-[20:32:27] [Server thread/INFO]: <Tokoro360> le damos?
-[20:32:32] [Server thread/INFO]: <Onedy> te atreves a darle ?
-[20:32:40] [Server thread/INFO]: <Tokoro360> los fuegos artificiales
-[20:32:41] [Server thread/INFO]: <Tokoro360> jajajaja
-[20:32:51] [Server thread/INFO]: <Tokoro360> fin jaja
-[20:32:54] [Server thread/INFO]: <Onedy> no ven
-[20:33:01] [Server thread/INFO]: <Tokoro360> perdon
-[20:33:02] [Server thread/INFO]: <Tokoro360> joer jaja
-[20:33:05] [Server thread/INFO]: <Tokoro360> le he dao sin querer
-[20:33:40] [Server thread/INFO]: <Tokoro360> te toca elegir jaja
-[20:33:46] [Server thread/INFO]: <Tokoro360> hay un creeper xD
-[20:35:14] [Server thread/INFO]: <Onedy> cuidame 6 segundos
-[20:35:16] [Server thread/INFO]: <Onedy> que pitan fuera
-[20:35:22] [Server thread/INFO]: <Tokoro360> si señor
-[20:36:15] [Server thread/INFO]: <Onedy> con que desesperacioin pitaban
-[20:36:22] [Server thread/INFO]: <Tokoro360> xDD
-[20:38:06] [Server thread/INFO]: <Tokoro360> fin de este lado xD
-[20:40:21] [Server thread/INFO]: <Tokoro360> lagazo
-[20:41:24] [Server thread/INFO]: Onedy was slain by Zombie Villager
-[20:41:26] [Server thread/INFO]: Tokoro360 was slain by Zombie
-[20:41:42] [Server thread/INFO]: <Onedy> tdormimos?
-[20:41:46] [Server thread/INFO]: <Tokoro360> bueeeeeeno
-[20:41:53] [Server thread/INFO]: <Onedy> vaya con el enanito no se moria ya
-[20:42:01] [Server thread/INFO]: <Onedy> y eso que le estaba dando con la espada gorda
-[20:42:33] [Server thread/INFO]: <Tokoro360> a mi justo se me rompio la espada...
-[20:42:35] [Server thread/INFO]: <Tokoro360> que suerte xD
-[20:43:07] [Server thread/INFO]: <Onedy> vaya :D
-[20:43:07] [Server thread/INFO]: <Tokoro360> yo me retiro ya....
-[20:43:11] [Server thread/INFO]: <Onedy> volvemos?
-[20:43:17] [Server thread/INFO]: <Tokoro360> mañana, k esk me va fatal
-[20:43:27] [Server thread/INFO]: <Tokoro360> vuelve tu si kieres
-[20:43:31] [Server thread/INFO]: <Tokoro360> no me robes las cosas jaja
-[20:43:41] [Server thread/INFO]: <Onedy> ok :D
-[20:43:41] [Server thread/INFO]: <Tokoro360> cierro el server y te lo subo al git, ok?
-[20:43:57] [Server thread/INFO]: <Onedy> ok :D
-[20:44:02] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[20:44:02] [Server thread/INFO]: Onedy left the game
-[20:44:03] [Server thread/INFO]: Tokoro360 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[20:44:03] [Server thread/INFO]: Tokoro360 left the game
-[20:44:05] [Server thread/INFO]: Stopping the server
-[20:44:05] [Server thread/INFO]: Stopping server
-[20:44:05] [Server thread/INFO]: Saving players
-[20:44:05] [Server thread/INFO]: Saving worlds
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/Tyros
-[20:44:05] [Server thread/INFO]: Saving chunks for level 'world'/Menelaus
-[20:44:13] [Server Shutdown Thread/INFO]: Stopping server
-[20:44:13] [Server Shutdown Thread/INFO]: Saving players
-[20:44:13] [Server Shutdown Thread/INFO]: Saving worlds
+[15:40:06] [main/INFO]: [STDOUT]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[15:40:06] [main/INFO]: [STDOUT]: Transforming net.minecraft.block.Block Finished.
+[15:40:10] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[15:40:29] [Server thread/INFO]: [STDOUT]: Doomlike Dungeons is in preInit, should now load config.
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG
+[15:40:29] [Server thread/INFO]: [STDOUT]: freqScale = 8
+[15:40:29] [Server thread/INFO]: [STDOUT]: factor = 32
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Frequency Scaling Factor Set To: 8
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Minimum X Factor Set To: 16
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Difficulty set to: Normal difficulty.
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons in with world generation? true
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons even with structures disabled? false
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will export item, block, and mob lists? false
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will announce use of OP/cheat commands? true
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will dungeons be easy to find? false
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will themes be automatically install if themes folder is empty? true
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Can themes be (re)installed by command? true
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will be stingy with chests? false
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] adding END to excusion list
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will use API? true
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will allow API base mob change? true
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will self-profile? false
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir will be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes\
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir File is be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Installing files C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\chests.cfg
+[15:40:29] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Config should now be loaded.
+[15:40:30] [Server thread/INFO]: [STDERR]: java.lang.ClassNotFoundException: minetweaker.MineTweakerAPI
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName0(Native Method)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at futurepack.minetweaker.MinetweakerBridge.init(MinetweakerBridge.java:15)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at futurepack.common.FPMain.preInit(FPMain.java:161)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:641)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:252)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:230)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:147)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
+[15:40:30] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
+[15:40:30] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException
+[15:40:35] [Server thread/INFO]: Loading properties
+[15:40:35] [Server thread/INFO]: Default game type: SURVIVAL
+[15:40:35] [Server thread/INFO]: Generating keypair
+[15:40:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:40:35] [Server thread/INFO]: Using default channel type
+[15:40:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:40:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:40:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:40:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:40:36] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
+[15:40:36] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
+[15:40:36] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
+[15:40:37] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading custom NBT tags (nbt.cfg)
+[15:40:37] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Found 12 themes.
+[15:40:37] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading chest loot file (chests.cfg)
+[15:40:37] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[15:40:37] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[15:40:37] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[15:40:37] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[15:40:37] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
+[15:40:37] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
+[15:40:38] [Server thread/INFO]: Preparing level "world"
+[15:40:39] [Server thread/INFO]: [STDOUT]: settings for world: 
+[15:40:39] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[15:40:39] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP json: 
+[15:40:39] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generateBopSoils":true,"generateBopTrees":true,"generateBopGrasses":true,"generateBopFoliage":true,"generateBopFlowers":true,"generateBopPlants":true,"generateBopWaterPlants":true,"generateBopMushrooms":true,"generateRockFormations":true,"generatePoisonIvy":true,"generateFlax":true,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
+[15:40:39] [Server thread/INFO]: [STDOUT]: settings for world: 
+[15:40:39] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[15:40:39] [Server thread/INFO]: [STDOUT]: settings for world: 
+[15:40:39] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[15:40:39] [Server thread/INFO]: [STDOUT]: settings for world: 
+[15:40:39] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[15:40:40] [Server thread/INFO]: [STDOUT]: settings for world: 
+[15:40:40] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[15:40:40] [Server thread/INFO]: [STDOUT]: settings for world: 
+[15:40:40] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[15:40:40] [Server thread/INFO]: [STDOUT]: settings for hell world: 
+[15:40:40] [Server thread/INFO]: Preparing start region for level 0
+[15:40:41] [Server thread/INFO]: Preparing spawn area: 12%
+[15:40:42] [Server thread/INFO]: Preparing spawn area: 86%
+[15:40:42] [Server thread/INFO]: Done (3.761s)! For help, type "help" or "?"
+[15:40:42] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
+[16:02:54] [Server thread/INFO]: Onedy[/127.0.0.1:16099] logged in with entity id 292 at (495.8494506122628, 62.0, 253.46160951804518)
+[16:02:54] [Server thread/INFO]: Onedy joined the game
+[16:04:13] [Server thread/INFO]: Usage: /gamemode <mode> [player]
+[16:04:38] [Server thread/INFO]: Set Onedy's game mode to Survival Mode
+[16:06:43] [Server thread/WARN]: Onedy moved too quickly! -404.0,-4.0,-235.19999998807918
+[16:06:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2561ms behind, skipping 51 tick(s)
+[16:07:02] [Server thread/INFO]: Onedy has just earned the achievement [Return to Sender]
+[16:29:37] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[17:43:05] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:43:05] [Server thread/INFO]: Onedy left the game
+[17:43:12] [Server thread/INFO]: Stopping the server
+[17:43:12] [Server thread/INFO]: Stopping server
+[17:43:12] [Server thread/INFO]: Saving players
+[17:43:12] [Server thread/INFO]: Saving worlds
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/Tyros
+[17:43:12] [Server thread/INFO]: Saving chunks for level 'world'/Menelaus
+[17:43:12] [Server Shutdown Thread/INFO]: Stopping server
+[17:43:12] [Server Shutdown Thread/INFO]: Saving players
