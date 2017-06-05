@@ -1,140 +1,137 @@
-[09:22:09] [main/INFO]: [STDOUT]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[09:22:09] [main/INFO]: [STDOUT]: Transforming net.minecraft.block.Block Finished.
-[09:22:13] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[09:22:39] [Server thread/INFO]: [STDOUT]: Doomlike Dungeons is in preInit, should now load config.
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG
-[09:22:39] [Server thread/INFO]: [STDOUT]: freqScale = 8
-[09:22:39] [Server thread/INFO]: [STDOUT]: factor = 32
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Frequency Scaling Factor Set To: 8
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Minimum X Factor Set To: 16
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Difficulty set to: Normal difficulty.
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons in with world generation? true
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons even with structures disabled? false
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will export item, block, and mob lists? false
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will announce use of OP/cheat commands? true
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will dungeons be easy to find? false
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will themes be automatically install if themes folder is empty? true
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Can themes be (re)installed by command? true
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will be stingy with chests? false
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] adding END to excusion list
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will use API? true
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will allow API base mob change? true
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will self-profile? false
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir will be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes\
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir File is be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Installing files C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\chests.cfg
-[09:22:39] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Config should now be loaded.
-[09:22:41] [Server thread/INFO]: [STDERR]: java.lang.ClassNotFoundException: minetweaker.MineTweakerAPI
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName0(Native Method)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at futurepack.minetweaker.MinetweakerBridge.init(MinetweakerBridge.java:15)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at futurepack.common.FPMain.preInit(FPMain.java:161)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:641)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:252)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:230)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:147)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
-[09:22:41] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
-[09:22:41] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException
-[09:22:49] [Server thread/INFO]: Loading properties
-[09:22:49] [Server thread/INFO]: Default game type: SURVIVAL
-[09:22:49] [Server thread/INFO]: Generating keypair
-[09:22:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:22:49] [Server thread/INFO]: Using default channel type
-[09:22:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:22:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:22:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:22:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:22:51] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
-[09:22:51] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
-[09:22:51] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
-[09:22:52] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading custom NBT tags (nbt.cfg)
-[09:22:52] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Found 12 themes.
-[09:22:52] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading chest loot file (chests.cfg)
-[09:22:52] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[09:22:52] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[09:22:52] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[09:22:52] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[09:22:52] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
-[09:22:52] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
-[09:22:56] [Server thread/INFO]: Preparing level "world"
-[09:22:56] [Server thread/INFO]: [STDOUT]: settings for world: 
-[09:22:56] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[09:22:56] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP json: 
-[09:22:56] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generateBopSoils":true,"generateBopTrees":true,"generateBopGrasses":true,"generateBopFoliage":true,"generateBopFlowers":true,"generateBopPlants":true,"generateBopWaterPlants":true,"generateBopMushrooms":true,"generateRockFormations":true,"generatePoisonIvy":true,"generateFlax":true,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
-[09:22:57] [Server thread/INFO]: [STDOUT]: settings for world: 
-[09:22:57] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[09:22:57] [Server thread/INFO]: [STDOUT]: settings for world: 
-[09:22:57] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[09:22:57] [Server thread/INFO]: [STDOUT]: settings for world: 
-[09:22:57] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[09:22:57] [Server thread/INFO]: [STDOUT]: settings for world: 
-[09:22:57] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[09:22:57] [Server thread/INFO]: [STDOUT]: settings for world: 
-[09:22:57] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[09:22:57] [Server thread/INFO]: [STDOUT]: settings for hell world: 
-[09:22:57] [Server thread/INFO]: Preparing start region for level 0
-[09:22:59] [Server thread/INFO]: Preparing spawn area: 1%
-[09:23:00] [Server thread/INFO]: Preparing spawn area: 38%
-[09:23:01] [Server thread/INFO]: Preparing spawn area: 86%
-[09:23:01] [Server thread/INFO]: Done (5.624s)! For help, type "help" or "?"
-[09:23:01] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
-[09:24:41] [Server thread/INFO]: Onedy[/127.0.0.1:28406] logged in with entity id 195 at (171.14899603658307, 74.0, 143.31007788886032)
-[09:24:41] [Server thread/INFO]: Onedy joined the game
-[09:29:47] [Server thread/WARN]: Onedy moved too quickly! -5.654979190386996,9.17852545072165,4.919776912977881
-[09:54:17] [Server thread/INFO]: Set the time to 18000
-[10:01:47] [Server thread/INFO]: Set the time to 18000
-[10:03:02] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:03:02] [Server thread/INFO]: Onedy left the game
-[10:06:56] [Server thread/INFO]: Onedy[/127.0.0.1:28809] logged in with entity id 35123 at (652.5525576152805, 67.0, 127.15849791008361)
-[10:06:56] [Server thread/INFO]: Onedy joined the game
-[10:07:11] [Server thread/INFO]: Set the time to 18000
-[11:02:25] [Server thread/WARN]: Onedy moved wrongly!
-[11:12:36] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[11:12:36] [Server thread/INFO]: Onedy left the game
-[11:12:45] [Server thread/INFO]: Stopping the server
-[11:12:45] [Server thread/INFO]: Stopping server
-[11:12:45] [Server thread/INFO]: Saving players
-[11:12:45] [Server thread/INFO]: Saving worlds
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/Tyros
-[11:12:45] [Server thread/INFO]: Saving chunks for level 'world'/Menelaus
-[11:12:46] [Server Shutdown Thread/INFO]: Stopping server
-[11:12:46] [Server Shutdown Thread/INFO]: Saving players
-[11:12:46] [Server Shutdown Thread/INFO]: Saving worlds
+[12:19:02] [main/INFO]: [STDOUT]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[12:19:02] [main/INFO]: [STDOUT]: Transforming net.minecraft.block.Block Finished.
+[12:19:06] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[12:19:28] [Server thread/INFO]: [STDOUT]: Doomlike Dungeons is in preInit, should now load config.
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG
+[12:19:28] [Server thread/INFO]: [STDOUT]: freqScale = 8
+[12:19:28] [Server thread/INFO]: [STDOUT]: factor = 32
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Frequency Scaling Factor Set To: 8
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Minimum X Factor Set To: 16
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Difficulty set to: Normal difficulty.
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons in with world generation? true
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons even with structures disabled? false
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will export item, block, and mob lists? false
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will announce use of OP/cheat commands? true
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will dungeons be easy to find? false
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will themes be automatically install if themes folder is empty? true
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Can themes be (re)installed by command? true
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will be stingy with chests? false
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] adding END to excusion list
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will use API? true
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will allow API base mob change? true
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will self-profile? false
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir will be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes\
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir File is be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Installing files C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\chests.cfg
+[12:19:28] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Config should now be loaded.
+[12:19:29] [Server thread/INFO]: [STDERR]: java.lang.ClassNotFoundException: minetweaker.MineTweakerAPI
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName0(Native Method)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at futurepack.minetweaker.MinetweakerBridge.init(MinetweakerBridge.java:15)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at futurepack.common.FPMain.preInit(FPMain.java:161)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:641)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:252)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:230)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:147)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
+[12:19:29] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
+[12:19:29] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException
+[12:19:35] [Server thread/INFO]: Loading properties
+[12:19:35] [Server thread/INFO]: Default game type: SURVIVAL
+[12:19:35] [Server thread/INFO]: Generating keypair
+[12:19:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:19:35] [Server thread/INFO]: Using default channel type
+[12:19:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:19:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:19:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:19:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:19:37] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
+[12:19:37] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
+[12:19:37] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
+[12:19:38] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading custom NBT tags (nbt.cfg)
+[12:19:38] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Found 12 themes.
+[12:19:38] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading chest loot file (chests.cfg)
+[12:19:38] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[12:19:38] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[12:19:38] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[12:19:38] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[12:19:38] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
+[12:19:38] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
+[12:19:40] [Server thread/INFO]: Preparing level "world"
+[12:19:40] [Server thread/INFO]: [STDOUT]: settings for world: 
+[12:19:40] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[12:19:40] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP json: 
+[12:19:40] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generateBopSoils":true,"generateBopTrees":true,"generateBopGrasses":true,"generateBopFoliage":true,"generateBopFlowers":true,"generateBopPlants":true,"generateBopWaterPlants":true,"generateBopMushrooms":true,"generateRockFormations":true,"generatePoisonIvy":true,"generateFlax":true,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
+[12:19:40] [Server thread/INFO]: [STDOUT]: settings for world: 
+[12:19:40] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[12:19:41] [Server thread/INFO]: [STDOUT]: settings for world: 
+[12:19:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[12:19:41] [Server thread/INFO]: [STDOUT]: settings for world: 
+[12:19:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[12:19:41] [Server thread/INFO]: [STDOUT]: settings for world: 
+[12:19:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[12:19:41] [Server thread/INFO]: [STDOUT]: settings for world: 
+[12:19:41] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[12:19:41] [Server thread/INFO]: [STDOUT]: settings for hell world: 
+[12:19:41] [Server thread/INFO]: Preparing start region for level 0
+[12:19:42] [Server thread/INFO]: Preparing spawn area: 9%
+[12:19:43] [Server thread/INFO]: Preparing spawn area: 79%
+[12:19:43] [Server thread/INFO]: Done (3.942s)! For help, type "help" or "?"
+[12:19:44] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
+[12:21:43] [Server thread/INFO]: Onedy[/127.0.0.1:29587] logged in with entity id 216 at (708.1540609178846, 71.0, 117.22719462002638)
+[12:21:43] [Server thread/INFO]: Onedy joined the game
+[13:01:45] [Server thread/INFO]: Set the time to 18000
+[13:28:18] [Server thread/INFO]: Set the time to 18000
+[13:56:59] [Server thread/WARN]: Onedy moved wrongly!
+[14:55:38] [Server thread/WARN]: Onedy moved too quickly! -404.0,-4.0,-234.36566639408545
+[15:08:16] [Server thread/WARN]: Onedy moved wrongly!
+[15:08:19] [Server thread/WARN]: Onedy moved too quickly! -8.184289494965899,-4.707673603096417,5.767549253862967
+[15:08:19] [Server thread/WARN]: Onedy moved too quickly! -8.45764570265829,-4.35186989883865,5.444778250744534
+[15:08:21] [Server thread/WARN]: Onedy moved too quickly! -10.429729227830386,1.6560610257213497,1.6709289899192896
+[15:13:01] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[15:13:01] [Server thread/INFO]: Onedy left the game
+[15:13:32] [Server thread/INFO]: Stopping the server
+[15:13:33] [Server thread/INFO]: Stopping server
+[15:13:33] [Server thread/INFO]: Saving players
+[15:13:33] [Server thread/INFO]: Saving worlds
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/Tyros
+[15:13:33] [Server thread/INFO]: Saving chunks for level 'world'/Menelaus
+[15:13:33] [Server Shutdown Thread/INFO]: Stopping server
+[15:13:33] [Server Shutdown Thread/INFO]: Saving players
+[15:13:33] [Server Shutdown Thread/INFO]: Saving worlds
