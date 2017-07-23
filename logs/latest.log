@@ -1,233 +1,195 @@
-[16:24:13] [main/INFO]: [STDOUT]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[16:24:13] [main/INFO]: [STDOUT]: Transforming net.minecraft.block.Block Finished.
-[16:24:19] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[16:24:53] [Server thread/INFO]: [STDOUT]: Doomlike Dungeons is in preInit, should now load config.
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG
-[16:24:53] [Server thread/INFO]: [STDOUT]: freqScale = 8
-[16:24:53] [Server thread/INFO]: [STDOUT]: factor = 32
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Frequency Scaling Factor Set To: 8
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Minimum X Factor Set To: 16
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Difficulty set to: Normal difficulty.
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons in with world generation? true
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons even with structures disabled? false
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will export item, block, and mob lists? false
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will announce use of OP/cheat commands? true
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will dungeons be easy to find? false
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will themes be automatically install if themes folder is empty? true
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Can themes be (re)installed by command? true
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will be stingy with chests? false
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] adding END to excusion list
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will use API? true
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will allow API base mob change? true
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will self-profile? false
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir will be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes\
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir File is be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Installing files C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\chests.cfg
-[16:24:53] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Config should now be loaded.
-[16:24:55] [Server thread/INFO]: [STDERR]: java.lang.ClassNotFoundException: minetweaker.MineTweakerAPI
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName0(Native Method)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at futurepack.minetweaker.MinetweakerBridge.init(MinetweakerBridge.java:15)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at futurepack.common.FPMain.preInit(FPMain.java:161)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:641)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:252)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:230)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:147)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
-[16:24:55] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Unknown Source)
-[16:24:55] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException
-[16:25:03] [Server thread/INFO]: Loading properties
-[16:25:03] [Server thread/INFO]: Default game type: SURVIVAL
-[16:25:03] [Server thread/INFO]: Generating keypair
-[16:25:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:25:03] [Server thread/INFO]: Using default channel type
-[16:25:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:25:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:25:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:25:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:25:05] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
-[16:25:05] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
-[16:25:05] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
-[16:25:08] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading custom NBT tags (nbt.cfg)
-[16:25:08] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Found 12 themes.
-[16:25:08] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading chest loot file (chests.cfg)
-[16:25:08] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[16:25:08] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[16:25:08] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[16:25:08] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
-[16:25:08] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
-[16:25:08] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
-[16:25:10] [Server thread/INFO]: Preparing level "world"
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for world: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[16:25:11] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP json: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generateBopSoils":true,"generateBopTrees":true,"generateBopGrasses":true,"generateBopFoliage":true,"generateBopFlowers":true,"generateBopPlants":true,"generateBopWaterPlants":true,"generateBopMushrooms":true,"generateRockFormations":true,"generatePoisonIvy":true,"generateFlax":true,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for world: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for world: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for world: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for world: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for world: 
-[16:25:11] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
-[16:25:11] [Server thread/INFO]: [STDOUT]: settings for hell world: 
-[16:25:12] [Server thread/INFO]: Preparing start region for level 0
-[16:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[16:25:14] [Server thread/INFO]: Preparing spawn area: 38%
-[16:25:15] [Server thread/INFO]: Preparing spawn area: 86%
-[16:25:15] [Server thread/INFO]: Done (5.120s)! For help, type "help" or "?"
-[16:25:15] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
-[16:25:25] [Server thread/INFO]: Onedy[/127.0.0.1:15117] logged in with entity id 269 at (705.1774289963631, 136.0, -184.86518557778825)
-[16:25:25] [Server thread/INFO]: Onedy joined the game
-[16:25:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2546ms behind, skipping 50 tick(s)
-[16:26:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10223ms behind, skipping 204 tick(s)
-[16:26:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12426ms behind, skipping 248 tick(s)
-[16:26:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3133ms behind, skipping 62 tick(s)
-[16:27:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3267ms behind, skipping 65 tick(s)
-[16:28:03] [Server thread/INFO]: EduardoPlay[/79.154.167.232:55668] logged in with entity id 4818 at (376.5, 74.97352370984892, 257.1259526797813)
-[16:28:03] [Server thread/INFO]: EduardoPlay joined the game
-[16:29:22] [Server thread/INFO]: <EduardoPlay> estas?
-[16:29:25] [Server thread/INFO]: <Onedy> si
-[16:29:29] [Server thread/INFO]: <Onedy> ce faceai?
-[16:29:35] [Server thread/INFO]: <EduardoPlay> a mi no me deja moverme:v
-[16:31:53] [Server thread/INFO]: [STDOUT]: Needed: 97, contained: 8819.0, exp to next: 97
-[16:31:53] [Server thread/INFO]: [STDOUT]: Needed: 102, contained: 8722.0, exp to next: 102
-[16:31:53] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 8620.0, exp to next: 107
-[16:32:58] [Server thread/INFO]: [STDOUT]: Needed: 87, contained: 8513.0, exp to next: 87
-[16:32:58] [Server thread/INFO]: [STDOUT]: Needed: 92, contained: 8426.0, exp to next: 92
-[16:32:58] [Server thread/INFO]: [STDOUT]: Needed: 97, contained: 8334.0, exp to next: 97
-[16:32:58] [Server thread/INFO]: [STDOUT]: Needed: 102, contained: 8237.0, exp to next: 102
-[16:32:58] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 8135.0, exp to next: 107
-[16:32:59] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 8028.0, exp to next: 112
-[16:32:59] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 7916.0, exp to next: 121
-[16:32:59] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 7795.0, exp to next: 130
-[16:32:59] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 7665.0, exp to next: 139
-[16:33:05] [Server thread/INFO]: [STDOUT]: Needed: 148, contained: 7526.0, exp to next: 148
-[16:33:05] [Server thread/INFO]: [STDOUT]: Needed: 157, contained: 7378.0, exp to next: 157
-[16:33:05] [Server thread/INFO]: [STDOUT]: Needed: 166, contained: 7221.0, exp to next: 166
-[16:33:06] [Server thread/INFO]: [STDOUT]: Needed: 175, contained: 7055.0, exp to next: 175
-[16:33:06] [Server thread/INFO]: [STDOUT]: Needed: 184, contained: 6880.0, exp to next: 184
-[16:33:06] [Server thread/INFO]: [STDOUT]: Needed: 193, contained: 6696.0, exp to next: 193
-[16:33:06] [Server thread/INFO]: [STDOUT]: Needed: 202, contained: 6503.0, exp to next: 202
-[16:33:12] [Server thread/INFO]: EduardoPlay lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[16:33:12] [Server thread/INFO]: EduardoPlay left the game
-[16:38:22] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 6301.0, exp to next: 112
-[16:38:22] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 6189.0, exp to next: 121
-[16:38:22] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 6068.0, exp to next: 130
-[16:38:22] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 5938.0, exp to next: 139
-[16:38:22] [Server thread/INFO]: [STDOUT]: Needed: 148, contained: 5799.0, exp to next: 148
-[16:39:04] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 5651.0, exp to next: 107
-[16:39:04] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 5544.0, exp to next: 112
-[16:39:04] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 5432.0, exp to next: 121
-[16:39:05] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 5311.0, exp to next: 130
-[16:39:05] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 5181.0, exp to next: 139
-[16:39:05] [Server thread/INFO]: [STDOUT]: Needed: 148, contained: 5042.0, exp to next: 148
-[16:39:05] [Server thread/INFO]: [STDOUT]: Needed: 157, contained: 4894.0, exp to next: 157
-[16:40:05] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 4737.0, exp to next: 107
-[16:40:05] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 4630.0, exp to next: 112
-[16:40:05] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 4518.0, exp to next: 121
-[16:40:05] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 4397.0, exp to next: 130
-[16:40:05] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 4267.0, exp to next: 139
-[16:41:27] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 4128.0, exp to next: 107
-[16:41:27] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 4021.0, exp to next: 112
-[16:41:27] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 3909.0, exp to next: 121
-[16:41:27] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 3788.0, exp to next: 130
-[16:41:28] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 3658.0, exp to next: 139
-[16:41:28] [Server thread/INFO]: [STDOUT]: Needed: 148, contained: 3519.0, exp to next: 148
-[16:41:28] [Server thread/INFO]: [STDOUT]: Needed: 157, contained: 3371.0, exp to next: 157
-[16:41:28] [Server thread/INFO]: [STDOUT]: Needed: 166, contained: 3214.0, exp to next: 166
-[16:41:28] [Server thread/INFO]: [STDOUT]: Needed: 175, contained: 3048.0, exp to next: 175
-[16:41:28] [Server thread/INFO]: [STDOUT]: Needed: 184, contained: 2873.0, exp to next: 184
-[16:46:57] [Server thread/INFO]: [STDOUT]: Needed: 77, contained: 2689.0, exp to next: 77
-[16:46:57] [Server thread/INFO]: [STDOUT]: Needed: 82, contained: 2612.0, exp to next: 82
-[16:46:58] [Server thread/INFO]: [STDOUT]: Needed: 87, contained: 2530.0, exp to next: 87
-[16:46:58] [Server thread/INFO]: [STDOUT]: Needed: 92, contained: 2443.0, exp to next: 92
-[16:46:58] [Server thread/INFO]: [STDOUT]: Needed: 97, contained: 2351.0, exp to next: 97
-[16:46:58] [Server thread/INFO]: [STDOUT]: Needed: 102, contained: 2254.0, exp to next: 102
-[16:46:59] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 2152.0, exp to next: 107
-[16:46:59] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 2045.0, exp to next: 112
-[16:46:59] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 1933.0, exp to next: 121
-[16:46:59] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 1812.0, exp to next: 130
-[16:46:59] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 1682.0, exp to next: 139
-[16:49:21] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 1543.0, exp to next: 107
-[16:49:22] [Server thread/INFO]: [STDOUT]: Needed: 112, contained: 1436.0, exp to next: 112
-[16:49:22] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 1324.0, exp to next: 121
-[16:53:28] [Server thread/INFO]: [STDOUT]: Needed: 25, contained: 1203.0, exp to next: 25
-[16:53:28] [Server thread/INFO]: [STDOUT]: Needed: 27, contained: 1178.0, exp to next: 27
-[16:53:28] [Server thread/INFO]: [STDOUT]: Needed: 29, contained: 1151.0, exp to next: 29
-[16:53:28] [Server thread/INFO]: [STDOUT]: Needed: 31, contained: 1122.0, exp to next: 31
-[16:53:28] [Server thread/INFO]: [STDOUT]: Needed: 33, contained: 1091.0, exp to next: 33
-[16:53:28] [Server thread/INFO]: [STDOUT]: Needed: 35, contained: 1058.0, exp to next: 35
-[16:53:30] [Server thread/INFO]: [STDOUT]: Needed: 37, contained: 1023.0, exp to next: 37
-[16:53:31] [Server thread/INFO]: [STDOUT]: Needed: 42, contained: 986.0, exp to next: 42
-[16:53:31] [Server thread/INFO]: [STDOUT]: Needed: 47, contained: 944.0, exp to next: 47
-[16:53:31] [Server thread/INFO]: [STDOUT]: Needed: 52, contained: 897.0, exp to next: 52
-[16:53:31] [Server thread/INFO]: [STDOUT]: Needed: 57, contained: 845.0, exp to next: 57
-[16:53:31] [Server thread/INFO]: [STDOUT]: Needed: 62, contained: 788.0, exp to next: 62
-[16:53:31] [Server thread/INFO]: [STDOUT]: Needed: 67, contained: 726.0, exp to next: 67
-[16:53:32] [Server thread/INFO]: [STDOUT]: Needed: 72, contained: 659.0, exp to next: 72
-[16:53:32] [Server thread/INFO]: [STDOUT]: Needed: 77, contained: 587.0, exp to next: 77
-[16:53:32] [Server thread/INFO]: [STDOUT]: Needed: 82, contained: 510.0, exp to next: 82
-[16:53:32] [Server thread/INFO]: [STDOUT]: Needed: 87, contained: 428.0, exp to next: 87
-[16:53:32] [Server thread/INFO]: [STDOUT]: Needed: 92, contained: 341.0, exp to next: 92
-[16:53:32] [Server thread/INFO]: [STDOUT]: Needed: 97, contained: 249.0, exp to next: 97
-[16:53:33] [Server thread/INFO]: [STDOUT]: Needed: 102, contained: 152.0, exp to next: 102
-[16:53:33] [Server thread/INFO]: [STDOUT]: Needed: 107, contained: 50.0, exp to next: 107
-[16:53:35] [Server thread/INFO]: [STDOUT]: Needed: 58, contained: 0.0, exp to next: 107
-[16:54:11] [Server thread/INFO]: [STDOUT]: Needed: 58, contained: 631.0, exp to next: 107
-[16:54:14] [Server thread/INFO]: [STDOUT]: Needed: 111, contained: 573.0, exp to next: 112
-[16:54:18] [Server thread/INFO]: [STDOUT]: Needed: 121, contained: 462.0, exp to next: 121
-[16:54:18] [Server thread/INFO]: [STDOUT]: Needed: 130, contained: 341.0, exp to next: 130
-[16:54:19] [Server thread/INFO]: [STDOUT]: Needed: 139, contained: 211.0, exp to next: 139
-[16:54:19] [Server thread/INFO]: [STDOUT]: Needed: 148, contained: 72.0, exp to next: 148
-[16:54:19] [Server thread/INFO]: [STDOUT]: Needed: 76, contained: 0.0, exp to next: 148
-[16:57:06] [Server thread/WARN]: Onedy moved wrongly!
-[16:57:08] [Server thread/WARN]: Onedy moved too quickly! 0.40877563154157315,4.259399751833612,10.724651140241178
-[17:10:43] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[17:10:43] [Server thread/INFO]: Onedy left the game
-[17:21:41] [Server thread/INFO]: Stopping the server
-[17:21:41] [Server thread/INFO]: Stopping server
-[17:21:41] [Server thread/INFO]: Saving players
-[17:21:41] [Server thread/INFO]: Saving worlds
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/Tyros
-[17:21:41] [Server thread/INFO]: Saving chunks for level 'world'/Menelaus
-[17:21:41] [Server Shutdown Thread/INFO]: Stopping server
+[18:23:45] [main/INFO]: [STDOUT]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[18:23:45] [main/INFO]: [STDOUT]: Transforming net.minecraft.block.Block Finished.
+[18:23:49] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[18:24:12] [Server thread/INFO]: [STDOUT]: Doomlike Dungeons is in preInit, should now load config.
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG
+[18:24:12] [Server thread/INFO]: [STDOUT]: freqScale = 8
+[18:24:12] [Server thread/INFO]: [STDOUT]: factor = 32
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Frequency Scaling Factor Set To: 8
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Minimum X Factor Set To: 16
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Difficulty set to: Normal difficulty.
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons in with world generation? true
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will spawn dungeons even with structures disabled? false
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will export item, block, and mob lists? false
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will announce use of OP/cheat commands? true
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will dungeons be easy to find? false
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will themes be automatically install if themes folder is empty? true
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Can themes be (re)installed by command? true
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will be stingy with chests? false
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] adding END to excusion list
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will use API? true
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will allow API base mob change? true
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Will self-profile? false
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir will be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes\
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir File is be set to C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] themesdir is C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\themes
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Installing files C:\Users\Edu\Downloads\Minrver\config\DLDungeonsJBG\chests.cfg
+[18:24:12] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Config should now be loaded.
+[18:24:15] [Server thread/INFO]: [STDERR]: java.lang.ClassNotFoundException: minetweaker.MineTweakerAPI
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName0(Native Method)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.Class.forName(Class.java:264)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at futurepack.minetweaker.MinetweakerBridge.init(MinetweakerBridge.java:15)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at futurepack.common.FPMain.preInit(FPMain.java:161)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:641)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:252)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:230)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:147)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
+[18:24:15] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Thread.java:748)
+[18:24:15] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException
+[18:24:20] [Server thread/INFO]: Loading properties
+[18:24:20] [Server thread/INFO]: Default game type: SURVIVAL
+[18:24:20] [Server thread/INFO]: Generating keypair
+[18:24:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:24:20] [Server thread/INFO]: Using default channel type
+[18:24:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:24:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:24:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:24:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:24:22] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
+[18:24:22] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
+[18:24:22] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
+[18:24:25] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading custom NBT tags (nbt.cfg)
+[18:24:25] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Found 12 themes.
+[18:24:25] [Server thread/INFO]: [STDOUT]: [DLDUNGEONS] Loading chest loot file (chests.cfg)
+[18:24:25] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[18:24:25] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[18:24:25] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[18:24:25] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:golden_apple(1)" was was not in registry (returned null).
+[18:24:25] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
+[18:24:25] [Server thread/INFO]: [STDERR]: [DLDUNGEONS] ERROR! Item read as "minecraft:skull(1)" was was not in registry (returned null).
+[18:24:28] [Server thread/INFO]: Preparing level "world"
+[18:24:29] [Server thread/INFO]: [STDOUT]: settings for world: 
+[18:24:29] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[18:24:29] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP json: 
+[18:24:29] [Server thread/INFO]: [STDOUT]: ChunkProviderGenerateBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generateBopSoils":true,"generateBopTrees":true,"generateBopGrasses":true,"generateBopFoliage":true,"generateBopFlowers":true,"generateBopPlants":true,"generateBopWaterPlants":true,"generateBopMushrooms":true,"generateRockFormations":true,"generatePoisonIvy":true,"generateFlax":true,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
+[18:24:29] [Server thread/INFO]: [STDOUT]: settings for world: 
+[18:24:29] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[18:24:29] [Server thread/INFO]: [STDOUT]: settings for world: 
+[18:24:29] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[18:24:29] [Server thread/INFO]: [STDOUT]: settings for world: 
+[18:24:29] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[18:24:30] [Server thread/INFO]: [STDOUT]: settings for world: 
+[18:24:30] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[18:24:30] [Server thread/INFO]: [STDOUT]: settings for world: 
+[18:24:30] [Server thread/INFO]: [STDOUT]: Setting up landmass VANILLA
+[18:24:30] [Server thread/INFO]: [STDOUT]: settings for hell world: 
+[18:24:30] [Server thread/INFO]: Preparing start region for level 0
+[18:24:31] [Server thread/INFO]: Preparing spawn area: 8%
+[18:24:32] [Server thread/INFO]: Preparing spawn area: 73%
+[18:24:32] [Server thread/INFO]: Done (4.787s)! For help, type "help" or "?"
+[18:24:33] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
+[18:26:21] [Server thread/INFO]: Onedy[/127.0.0.1:40280] logged in with entity id 225 at (696.5403190427468, 60.0, 88.05619843286242)
+[18:26:21] [Server thread/INFO]: Onedy joined the game
+[18:39:33] [Server thread/WARN]: Onedy moved too quickly! 8.671749987283533,1.587024073181567,-5.428632164090764
+[18:41:03] [Server thread/WARN]: Onedy moved too quickly! -1.868716634224711,9.781419386286373,2.1585579507113835
+[18:57:38] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[18:57:41] [Server thread/INFO]: --- Showing help page 1 of 13 (/help <page>) ---
+[18:57:41] [Server thread/INFO]: //dimension - return information aboud this Dimenson OR //dimension <id> [target] - teleports the target to the dimension
+[18:57:41] [Server thread/INFO]: command.ed.usage
+[18:57:41] [Server thread/INFO]: /achievement <give|take> <name|*> [player]
+[18:57:41] [Server thread/INFO]: /angry to show your angry
+[18:57:41] [Server thread/INFO]: /astralsorcery <action> [player] [arguments...]
+[18:57:41] [Server thread/INFO]: /ban <name> [reason ...]
+[18:57:41] [Server thread/INFO]: /ban-ip <address|name> [reason ...]
+[18:57:41] [Server thread/INFO]: Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[18:57:43] [Server thread/INFO]: Usage: /time <set|add|query> <value>
+[18:57:46] [Server thread/INFO]: Set the time to 0
+[18:57:55] [Server thread/INFO]: Set the time to 10000
+[18:58:02] [Server thread/INFO]: Set the time to 13000
+[19:06:03] [Server thread/INFO]: [STDOUT]: Needed: 7, contained: 2527.0, exp to next: 7
+[19:06:04] [Server thread/INFO]: [STDOUT]: Needed: 9, contained: 2520.0, exp to next: 9
+[19:06:04] [Server thread/INFO]: [STDOUT]: Needed: 11, contained: 2511.0, exp to next: 11
+[19:06:04] [Server thread/INFO]: [STDOUT]: Needed: 13, contained: 2500.0, exp to next: 13
+[19:06:05] [Server thread/INFO]: [STDOUT]: Needed: 15, contained: 2487.0, exp to next: 15
+[19:14:25] [Server thread/INFO]: Set the time to 13000
+[19:25:19] [Server thread/WARN]: Onedy moved too quickly! -3.2409594882161628,9.89153468249927,-0.062152237527485
+[19:27:22] [Server thread/INFO]: Set the time to 13000
+[19:32:04] [Server thread/WARN]: Onedy moved too quickly! -0.5022059763198286,-9.297851147360106,-5.5446841108663065
+[19:37:19] [Server thread/WARN]: Onedy moved too quickly! 4.254915705826875,-1.4394571369992804,9.756955212945272
+[19:38:14] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:38:14] [Server thread/INFO]: Onedy left the game
+[19:43:49] [Server thread/INFO]: Onedy[/127.0.0.1:42403] logged in with entity id 61866 at (705.0162636326731, 70.0, 113.0133192213324)
+[19:43:49] [Server thread/INFO]: Onedy joined the game
+[19:57:33] [Server thread/WARN]: Onedy moved too quickly! 1.388140841723498,4.008777678484051,9.31466438515605
+[20:04:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2611ms behind, skipping 52 tick(s)
+[20:30:13] [Server thread/INFO]: Onedy lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Se ha anulado una conexión establecida por el software en su equipo host.], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:30:13] [Server thread/INFO]: Onedy left the game
+[20:30:30] [Server thread/INFO]: Onedy[/127.0.0.1:43665] logged in with entity id 89295 at (720.0004184168286, 75.0625, 119.50225559118392)
+[20:30:30] [Server thread/INFO]: Onedy joined the game
+[20:30:30] [Server thread/INFO]: Onedy lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Se ha anulado una conexión establecida por el software en su equipo host.], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:30:30] [Server thread/INFO]: Onedy left the game
+[20:30:46] [Server thread/INFO]: Onedy[/127.0.0.1:43671] logged in with entity id 89334 at (720.0004184168286, 75.0625, 119.50225559118392)
+[20:30:46] [Server thread/INFO]: Onedy joined the game
+[20:59:53] [Server thread/INFO]: Usage: /give <player> <item> [amount] [data] [dataTag]
+[21:00:07] [Server thread/INFO]: Given [Npc Wand] * 1 to Onedy
+[21:00:34] [Server thread/WARN]: Onedy moved too quickly! -8.93348713604189,2.015946511804131,4.541918412464781
+[21:04:07] [Server thread/INFO]: Onedy lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:04:07] [Server thread/INFO]: Onedy left the game
+[21:11:02] [Server thread/INFO]: Onedy[/127.0.0.1:44953] logged in with entity id 105423 at (513.6359151477637, 64.0, 254.52751528380475)
+[21:11:02] [Server thread/INFO]: Onedy joined the game
+[21:18:15] [Server thread/INFO]: There is no such item with name minecraft:miencart
+[21:18:22] [Server thread/INFO]: Given [Minecart] * 1 to Onedy
+[21:19:33] [Server thread/INFO]: Usage: /give <player> <item> [amount] [data] [dataTag]
+[21:19:47] [Server thread/INFO]: Given [Iron Ingot] * 5 to Onedy
+[21:26:41] [Server thread/INFO]: [STDOUT]: Needed: 11, contained: 3879.0, exp to next: 11
+[21:26:41] [Server thread/INFO]: [STDOUT]: Needed: 13, contained: 3868.0, exp to next: 13
+[21:26:42] [Server thread/INFO]: [STDOUT]: Needed: 15, contained: 3855.0, exp to next: 15
+[21:26:42] [Server thread/INFO]: [STDOUT]: Needed: 17, contained: 3840.0, exp to next: 17
+[21:26:42] [Server thread/INFO]: [STDOUT]: Needed: 19, contained: 3823.0, exp to next: 19
+[21:26:42] [Server thread/INFO]: [STDOUT]: Needed: 21, contained: 3804.0, exp to next: 21
+[21:26:42] [Server thread/INFO]: [STDOUT]: Needed: 23, contained: 3783.0, exp to next: 23
+[21:26:42] [Server thread/INFO]: [STDOUT]: Needed: 25, contained: 3760.0, exp to next: 25
+[21:26:43] [Server thread/INFO]: [STDOUT]: Needed: 27, contained: 3735.0, exp to next: 27
+[21:26:43] [Server thread/INFO]: [STDOUT]: Needed: 29, contained: 3708.0, exp to next: 29
+[21:26:43] [Server thread/INFO]: [STDOUT]: Needed: 31, contained: 3679.0, exp to next: 31
+[21:26:43] [Server thread/INFO]: [STDOUT]: Needed: 33, contained: 3648.0, exp to next: 33
+[21:26:43] [Server thread/INFO]: [STDOUT]: Needed: 35, contained: 3615.0, exp to next: 35
+[21:27:11] [Server thread/INFO]: [STDOUT]: Needed: 19, contained: 3580.0, exp to next: 19
+[22:29:19] [Server thread/INFO]: Onedy lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[22:29:19] [Server thread/INFO]: Onedy left the game
+[23:22:32] [Server thread/INFO]: Stopping the server
+[23:22:33] [Server thread/INFO]: Stopping server
+[23:22:33] [Server thread/INFO]: Saving players
+[23:22:33] [Server thread/INFO]: Saving worlds
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/elementaldimensions
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/Tyros
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'world'/Menelaus
+[23:22:34] [Server Shutdown Thread/INFO]: Stopping server
+[23:22:34] [Server Shutdown Thread/INFO]: Saving players
+[23:22:34] [Server Shutdown Thread/INFO]: Saving worlds
